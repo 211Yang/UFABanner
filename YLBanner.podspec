@@ -116,7 +116,7 @@ YLBanner可同时支持本地图片和网络图片，支持自定义轮播时间
   #  the lib prefix of their name.
   #
 
-  s.frameworks  = "UIKit", "Foundation"
+  # s.frameworks  = "UIKit", "Foundation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
