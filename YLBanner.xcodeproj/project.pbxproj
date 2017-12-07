@@ -17,6 +17,7 @@
 		CC92241A1F4495B400C53EBE /* YLBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9224191F4495B400C53EBE /* YLBannerView.m */; };
 		CC92241D1F4495EB00C53EBE /* BannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC92241C1F4495EB00C53EBE /* BannerModel.m */; };
 		CC9224211F449FF700C53EBE /* NSTimer+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9224201F449FF700C53EBE /* NSTimer+Action.m */; };
+		CCB7EE2C1FD91B5500D2D28B /* screenshots.gif in Resources */ = {isa = PBXBuildFile; fileRef = CCB7EE2B1FD91B5500D2D28B /* screenshots.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		CC92241C1F4495EB00C53EBE /* BannerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerModel.m; sourceTree = "<group>"; };
 		CC92241F1F449FF700C53EBE /* NSTimer+Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Action.h"; sourceTree = "<group>"; };
 		CC9224201F449FF700C53EBE /* NSTimer+Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Action.m"; sourceTree = "<group>"; };
+		CCB7EE2B1FD91B5500D2D28B /* screenshots.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenshots.gif; sourceTree = "<group>"; };
 		DDDC7E07553B415C3FB293F2 /* libPods-YLBanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YLBanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 				CC9224061F44936800C53EBE /* Main.storyboard */,
 				CC9224091F44936800C53EBE /* Assets.xcassets */,
 				CC92240B1F44936800C53EBE /* LaunchScreen.storyboard */,
+				CCB7EE2B1FD91B5500D2D28B /* screenshots.gif */,
 				CC92240E1F44936800C53EBE /* Info.plist */,
 				CC9223FD1F44936800C53EBE /* Supporting Files */,
 			);
@@ -196,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB7EE2C1FD91B5500D2D28B /* screenshots.gif in Resources */,
 				CC92240D1F44936800C53EBE /* LaunchScreen.storyboard in Resources */,
 				CC92240A1F44936800C53EBE /* Assets.xcassets in Resources */,
 				CC9224081F44936800C53EBE /* Main.storyboard in Resources */,
