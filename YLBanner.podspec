@@ -131,6 +131,6 @@ YLBanner可同时支持本地图片和网络图片，支持自定义轮播时间
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "SDWebImage"
+  s.dependency "SDWebImage"
 
 end
