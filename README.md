@@ -5,7 +5,7 @@ YLBanner是一个很好用的可高度配置循环轮播图开源项目，可同
 
 # 项目截图
 
-![image](https://github.com/211Yang/YLBanner/tree/master/YLBanner/screenshots.gif )
+![image](https://github.com/211Yang/YLBanner/blob/master/YLBanner/screenshots.gif )
 
 # 集成
 方法一：手动集成
