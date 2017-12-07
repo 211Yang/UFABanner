@@ -29,7 +29,7 @@ YLBanner可同时支持本地图片和网络图片，支持自定义轮播时间
                    DESC
 
   s.homepage     = "https://github.com/211Yang/YLBanner"
-  s.screenshots  = "https://github.com/211Yang/YLBanner/blob/master/YLBanner/screenshots.gif"
+  # s.screenshots  = "https://github.com/211Yang/YLBanner/blob/master/YLBanner/screenshots.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -65,7 +65,7 @@ YLBanner可同时支持本地图片和网络图片，支持自定义轮播时间
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+   s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
