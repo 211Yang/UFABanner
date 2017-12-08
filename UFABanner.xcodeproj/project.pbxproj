@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D2864B3D4961FB98ABE10B6 /* libPods-UFABanner.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 421E5724A4B2249A8B68EC13 /* libPods-UFABanner.a */; };
+		CC9223FF1F44936800C53EBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9223FE1F44936800C53EBE /* main.m */; };
+		CC9224021F44936800C53EBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9224011F44936800C53EBE /* AppDelegate.m */; };
+		CC9224051F44936800C53EBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9224041F44936800C53EBE /* ViewController.m */; };
+		CC9224081F44936800C53EBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC9224061F44936800C53EBE /* Main.storyboard */; };
+		CC92240A1F44936800C53EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC9224091F44936800C53EBE /* Assets.xcassets */; };
+		CC92240D1F44936800C53EBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC92240B1F44936800C53EBE /* LaunchScreen.storyboard */; };
+		CC92241A1F4495B400C53EBE /* UFABannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9224191F4495B400C53EBE /* UFABannerView.m */; };
+		CC92241D1F4495EB00C53EBE /* BannerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CC92241C1F4495EB00C53EBE /* BannerModel.m */; };
+		CC9224211F449FF700C53EBE /* NSTimer+Action.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9224201F449FF700C53EBE /* NSTimer+Action.m */; };
+		CCB7EE2C1FD91B5500D2D28B /* screenshots.gif in Resources */ = {isa = PBXBuildFile; fileRef = CCB7EE2B1FD91B5500D2D28B /* screenshots.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		173C6A94F64A3F9674C29B90 /* Pods-UFABanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UFABanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UFABanner/Pods-UFABanner.debug.xcconfig"; sourceTree = "<group>"; };
+		3CC8FAA9F47889CDB00F0E03 /* Pods-YLBanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-YLBanner/Pods-YLBanner.release.xcconfig"; sourceTree = "<group>"; };
+		421E5724A4B2249A8B68EC13 /* libPods-UFABanner.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UFABanner.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		515E7844F7CF3035489E3B64 /* Pods-YLBanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YLBanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YLBanner/Pods-YLBanner.debug.xcconfig"; sourceTree = "<group>"; };
+		715EFC17B3C40381ED239A31 /* Pods-UFABanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UFABanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-UFABanner/Pods-UFABanner.release.xcconfig"; sourceTree = "<group>"; };
+		CC9223FA1F44936800C53EBE /* UFABanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UFABanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC9223FE1F44936800C53EBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC9224001F44936800C53EBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC9224011F44936800C53EBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC9224031F44936800C53EBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CC9224041F44936800C53EBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC9224071F44936800C53EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC9224091F44936800C53EBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC92240C1F44936800C53EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC92240E1F44936800C53EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9224181F4495B400C53EBE /* UFABannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFABannerView.h; sourceTree = "<group>"; };
+		CC9224191F4495B400C53EBE /* UFABannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFABannerView.m; sourceTree = "<group>"; };
+		CC92241B1F4495EB00C53EBE /* BannerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerModel.h; sourceTree = "<group>"; };
+		CC92241C1F4495EB00C53EBE /* BannerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerModel.m; sourceTree = "<group>"; };
+		CC92241F1F449FF700C53EBE /* NSTimer+Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Action.h"; sourceTree = "<group>"; };
+		CC9224201F449FF700C53EBE /* NSTimer+Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Action.m"; sourceTree = "<group>"; };
+		CCB7EE2B1FD91B5500D2D28B /* screenshots.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenshots.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC9223F71F44936800C53EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D2864B3D4961FB98ABE10B6 /* libPods-UFABanner.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC9223F11F44936800C53EBE = {
+			isa = PBXGroup;
+			children = (
+				CC9223FC1F44936800C53EBE /* UFABanner */,
+				CC9223FB1F44936800C53EBE /* Products */,
+				D184004CEC9385C3DA90CC6D /* Pods */,
+				CD564025C1FEF158906E0B01 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC9223FB1F44936800C53EBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC9223FA1F44936800C53EBE /* UFABanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC9223FC1F44936800C53EBE /* UFABanner */ = {
+			isa = PBXGroup;
+			children = (
+				CC9224171F4495B400C53EBE /* UFABanner */,
+				CC9224001F44936800C53EBE /* AppDelegate.h */,
+				CC9224011F44936800C53EBE /* AppDelegate.m */,
+				CC9224031F44936800C53EBE /* ViewController.h */,
+				CC9224041F44936800C53EBE /* ViewController.m */,
+				CC9224061F44936800C53EBE /* Main.storyboard */,
+				CC9224091F44936800C53EBE /* Assets.xcassets */,
+				CC92240B1F44936800C53EBE /* LaunchScreen.storyboard */,
+				CCB7EE2B1FD91B5500D2D28B /* screenshots.gif */,
+				CC92240E1F44936800C53EBE /* Info.plist */,
+				CC9223FD1F44936800C53EBE /* Supporting Files */,
+			);
+			path = UFABanner;
+			sourceTree = "<group>";
+		};
+		CC9223FD1F44936800C53EBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC9223FE1F44936800C53EBE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC9224171F4495B400C53EBE /* UFABanner */ = {
+			isa = PBXGroup;
+			children = (
+				CC92241E1F449FF700C53EBE /* NSTimer */,
+				CC9224181F4495B400C53EBE /* UFABannerView.h */,
+				CC9224191F4495B400C53EBE /* UFABannerView.m */,
+				CC92241B1F4495EB00C53EBE /* BannerModel.h */,
+				CC92241C1F4495EB00C53EBE /* BannerModel.m */,
+			);
+			path = UFABanner;
+			sourceTree = "<group>";
+		};
+		CC92241E1F449FF700C53EBE /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				CC92241F1F449FF700C53EBE /* NSTimer+Action.h */,
+				CC9224201F449FF700C53EBE /* NSTimer+Action.m */,
+			);
+			path = NSTimer;
+			sourceTree = "<group>";
+		};
+		CD564025C1FEF158906E0B01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				421E5724A4B2249A8B68EC13 /* libPods-UFABanner.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D184004CEC9385C3DA90CC6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				515E7844F7CF3035489E3B64 /* Pods-YLBanner.debug.xcconfig */,
+				3CC8FAA9F47889CDB00F0E03 /* Pods-YLBanner.release.xcconfig */,
+				173C6A94F64A3F9674C29B90 /* Pods-UFABanner.debug.xcconfig */,
+				715EFC17B3C40381ED239A31 /* Pods-UFABanner.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC9223F91F44936800C53EBE /* UFABanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC9224111F44936800C53EBE /* Build configuration list for PBXNativeTarget "UFABanner" */;
+			buildPhases = (
+				35B1DA7B36909809A95CC23E /* [CP] Check Pods Manifest.lock */,
+				CC9223F61F44936800C53EBE /* Sources */,
+				CC9223F71F44936800C53EBE /* Frameworks */,
+				CC9223F81F44936800C53EBE /* Resources */,
+				EFED95C5890C538DDEFDE74B /* [CP] Embed Pods Frameworks */,
+				4BEC097CEF1607E528D25779 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UFABanner;
+			productName = YLBanner;
+			productReference = CC9223FA1F44936800C53EBE /* UFABanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC9223F21F44936800C53EBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Yang Lin";
+				TargetAttributes = {
+					CC9223F91F44936800C53EBE = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = T2V8E72L2V;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CC9223F51F44936800C53EBE /* Build configuration list for PBXProject "UFABanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC9223F11F44936800C53EBE;
+			productRefGroup = CC9223FB1F44936800C53EBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC9223F91F44936800C53EBE /* UFABanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC9223F81F44936800C53EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCB7EE2C1FD91B5500D2D28B /* screenshots.gif in Resources */,
+				CC92240D1F44936800C53EBE /* LaunchScreen.storyboard in Resources */,
+				CC92240A1F44936800C53EBE /* Assets.xcassets in Resources */,
+				CC9224081F44936800C53EBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35B1DA7B36909809A95CC23E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UFABanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BEC097CEF1607E528D25779 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UFABanner/Pods-UFABanner-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFED95C5890C538DDEFDE74B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UFABanner/Pods-UFABanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC9223F61F44936800C53EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC9224051F44936800C53EBE /* ViewController.m in Sources */,
+				CC9224021F44936800C53EBE /* AppDelegate.m in Sources */,
+				CC9223FF1F44936800C53EBE /* main.m in Sources */,
+				CC92241A1F4495B400C53EBE /* UFABannerView.m in Sources */,
+				CC9224211F449FF700C53EBE /* NSTimer+Action.m in Sources */,
+				CC92241D1F4495EB00C53EBE /* BannerModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC9224061F44936800C53EBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC9224071F44936800C53EBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC92240B1F44936800C53EBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC92240C1F44936800C53EBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC92240F1F44936800C53EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC9224101F44936800C53EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC9224121F44936800C53EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 173C6A94F64A3F9674C29B90 /* Pods-UFABanner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T2V8E72L2V;
+				INFOPLIST_FILE = UFABanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yang-Lin.UFABanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC9224131F44936800C53EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 715EFC17B3C40381ED239A31 /* Pods-UFABanner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T2V8E72L2V;
+				INFOPLIST_FILE = UFABanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Yang-Lin.UFABanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC9223F51F44936800C53EBE /* Build configuration list for PBXProject "UFABanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC92240F1F44936800C53EBE /* Debug */,
+				CC9224101F44936800C53EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC9224111F44936800C53EBE /* Build configuration list for PBXNativeTarget "UFABanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC9224121F44936800C53EBE /* Debug */,
+				CC9224131F44936800C53EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC9223F21F44936800C53EBE /* Project object */;
+}

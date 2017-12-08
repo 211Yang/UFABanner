@@ -3,7 +3,7 @@
 # Uncomment this line if you're using Swift
 # use_frameworks!
 
-target 'YLBanner' do
+target 'UFABanner' do
 
 pod 'SDWebImage'
 
