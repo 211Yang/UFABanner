@@ -105,16 +105,6 @@
     }
 }
 
-- (void)layoutSubviews
-{
-    [super layoutSubviews];
-    
-    if (_maxImageCount>0) {
-        
-        [self setUp];
-    }
-}
-
 - (void)dealloc
 {
     [self removeTimer];
@@ -407,7 +397,10 @@
         _images = [images copy];
         _maxImageCount = images.count;
         
-        [self setNeedsLayout];
+        if (_maxImageCount>0) {
+            
+            [self setUp];
+        }
     }
 }
 
