@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UFABanner"
-  s.version      = "0.0.1"
-  s.summary      = "UFABanner是一个很好用的可高度配置循环轮播图开源项目"
+  s.version      = “0.0.2”
+  s.summary      = "UFABanner是一个简单、易用、可高度配置的循环轮播图开源组件"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -80,7 +80,7 @@ UFABanner可同时支持本地图片和网络图片，支持自定义轮播时�
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/211Yang/UFABanner.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/211Yang/UFABanner.git", :tag => “0.0.2” }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
