@@ -21,7 +21,6 @@
 @property (nonatomic, strong)UIImageView *firstImage;//第一张图片
 @property (nonatomic, strong)UIImageView *secondImage;//第二种图片
 @property (nonatomic, strong)UIImageView *thirdImage;//第三张图片
-@property (nonatomic, assign)NSInteger currentIndex;//当前显示的下标
 @property (nonatomic, assign)NSInteger maxImageCount;//显示的图片数
 
 @property (nonatomic, strong)UIPageControl *pageControll;//分页指示控件
@@ -33,6 +32,13 @@
 
 #pragma mark - life cicle
 
+
+- (void)awakeFromNib
+{
+    [self awakeFromNib];
+    self.imageContentMode = UIViewContentModeScaleAspectFit;
+}
+
 - (instancetype)initWithFrame:(CGRect)frame
 {
     return [self initWithFrame:frame images:nil];
@@ -43,7 +49,7 @@
     self = [super initWithFrame:frame];
     
     if (self) {
-        
+        self.imageContentMode = UIViewContentModeScaleAspectFit;
         [self setImages:images];
         
     }
@@ -205,7 +211,7 @@
                 BannerModel *model = imageUrls[i];
                 
                 if ([[[NSURL URLWithString:model.imageUrl] scheme] isEqualToString:@"http"] || [[[NSURL URLWithString:model.imageUrl] scheme] isEqualToString:@"https"]) {
-
+                    
                     [imageview sd_setImageWithURL:[NSURL URLWithString:model.imageUrl] placeholderImage:_placeHolder];
                 }else
                 {
@@ -263,6 +269,16 @@
     _timer = nil;
 }
 
+- (void)scrolltoIndex:(NSInteger)index
+{
+    //    [_scroll setContentOffset:CGPointMake(kScrollWidth*(index%self.images.count), 0)];
+    //    [self changeImageWithOffset:kScrollWidth*(index)];
+    
+    _currentIndex = index;
+    [self resetScroll];
+    
+    
+}
 
 #pragma mark - UIScrollViewDelegate
 
@@ -325,7 +341,7 @@
 - (UIPageControl *)pageControll
 {
     if (!_pageControll) {
-        _pageControll = [[UIPageControl alloc] initWithFrame:CGRectMake(0, kScrollHeight - 20, kScrollWidth, 20)];
+        _pageControll = [[UIPageControl alloc] initWithFrame:CGRectMake(0, kScrollHeight - 38, kScrollWidth, 20)];
         [_pageControll addTarget:self action:@selector(changePage) forControlEvents:UIControlEventValueChanged];
         _pageControll.hidesForSinglePage = YES;
     }
@@ -338,10 +354,10 @@
     if (!_firstImage) {
         
         _firstImage = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, kScrollWidth, kScrollHeight)];
-        [_firstImage setBackgroundColor:[UIColor lightGrayColor]];
-        _firstImage.contentMode = UIViewContentModeScaleAspectFill;
+        [_firstImage setBackgroundColor:[UIColor whiteColor]];
         _firstImage.clipsToBounds = YES;
     }
+    _firstImage.contentMode = self.imageContentMode;
     
     return _firstImage;
 }
@@ -351,12 +367,10 @@
     if (!_secondImage) {
         
         _secondImage = [[UIImageView alloc] initWithFrame:CGRectMake(kScrollWidth, 0, kScrollWidth, kScrollHeight)];
-        [_secondImage setBackgroundColor:[UIColor lightGrayColor]];
-        _secondImage.contentMode = UIViewContentModeScaleAspectFill;
+        [_secondImage setBackgroundColor:[UIColor whiteColor]];
         _secondImage.clipsToBounds = YES;
-        
-        
     }
+    _secondImage.contentMode = self.imageContentMode;
     
     return _secondImage;
 }
@@ -366,11 +380,10 @@
     if (!_thirdImage) {
         
         _thirdImage = [[UIImageView alloc] initWithFrame:CGRectMake(2*kScrollWidth, 0, kScrollWidth, kScrollHeight)];
-        [_thirdImage setBackgroundColor:[UIColor lightGrayColor]];
-        _thirdImage.contentMode = UIViewContentModeScaleAspectFill;
+        [_thirdImage setBackgroundColor:[UIColor whiteColor]];
         _thirdImage.clipsToBounds = YES;
-        
     }
+    _thirdImage.contentMode = self.imageContentMode;
     
     return _thirdImage;
 }
@@ -434,3 +447,4 @@
 
 
 @end
+

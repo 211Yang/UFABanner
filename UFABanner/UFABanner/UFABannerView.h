@@ -15,11 +15,12 @@
 @property (nonatomic, copy)NSArray *images;//图片数据数组
 @property (nonatomic, assign) BOOL shouldAuto;//是否自动滑动，默认开启
 @property (nonatomic, strong) UIImage *placeHolder;//默认图
+@property (nonatomic, assign) UIViewContentMode imageContentMode;//图片显示方式
 
 
 @property (nonatomic, assign) NSTimeInterval autoScrollDelay;//自动滑动时间间隔，默认3s
 @property (nonatomic, weak) id <UFABannerViewDelegate> delegate;//代理
-
+@property (nonatomic, assign)NSInteger currentIndex;//当前显示的下标
 /**
  初始化方法
  
@@ -28,6 +29,8 @@
  @return 返回实例对象
  */
 - (instancetype)initWithFrame:(CGRect)frame images:(NSArray *)images;
+
+- (void)scrolltoIndex:(NSInteger)index;
 
 @end
 
@@ -44,3 +47,5 @@
 - (void)scrollView:(UFABannerView *)scrollView didSelectImageWithModel:(BannerModel *)model;
 
 @end
+
+
