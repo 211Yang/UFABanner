@@ -35,7 +35,7 @@
 
 - (void)awakeFromNib
 {
-    [self awakeFromNib];
+    [super awakeFromNib];
     self.imageContentMode = UIViewContentModeScaleAspectFit;
 }
 
