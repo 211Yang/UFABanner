@@ -30,9 +30,14 @@ bannerFirst.shouldAuto = YES;//是否自动轮播
 
 bannerFirst.autoScrollDelay = 3;//轮播时间间隔
 
+bannerFirst.currentIndex = 0;//设置默认选择index
+
+bannerFirst.imageContentMode = UIViewContentModeScaleAspectFit;//设置图片contentModel,默认为UIViewContentModeScaleAspectFit
+
 bannerFirst.delegate = self;//设置点击图片代理
 
 [bannerFirst setPlaceHolder:[UIImage imageNamed:@"placeHolder"]];//自定义默认图
+[bannerFirst scrolltoIndex:1];//滑动到指定位置
 
 
 其中，imagesFirst为轮播图实体对象数组。
